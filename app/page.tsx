@@ -8,6 +8,7 @@ import { Menu } from "@/components/ui/nav";
 import Navbar from "./components/navbar";
 import AboutUs from "./components/sections/about";
 import Achievements from "./components/sections/achievements";
+import { FunEffect } from "./components/sections/gemini";
 
 export default function Home() {
   
@@ -22,6 +23,7 @@ export default function Home() {
         <Rover />
         <AboutUs />
         <Achievements />
+        <FunEffect />
       </TracingBeam>
       
     </main>
