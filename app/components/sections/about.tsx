@@ -14,14 +14,15 @@ function AboutUs() {
           About <br /> our endeavour.
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-            We are a group of passionate individuals who are dedicated to
-            providing the best possible experience for our customers. We believe
-            in the power of technology and its ability to change the world for the
-            better. Our mission is to create innovative solutions that make a
-            difference in people&apos;s lives. We are committed to excellence and
-            strive to deliver the highest quality products and services to our
-            customers. We are always looking for new ways to improve and grow, and
-            we are excited to see what the future holds. Thank you for joining us
+           
+            We are a team of passionate students who are dedicated to the field of robotics. 
+            We aim to inspire and educate the next generation of engineers and innovators. 
+            Our team is made up of students from various backgrounds and disciplines, 
+            all coming together to work towards a common goal. 
+            We are constantly pushing the boundaries of what is possible and are always looking for new and innovative ways to solve problems. 
+            Our team is committed to excellence and strives to be the best in everything we do. 
+            We are proud of our accomplishments and are excited to see what the future holds for us.
+
 
         </p>
       </div>
