@@ -18,11 +18,11 @@ function AboutUs() {
             providing the best possible experience for our customers. We believe
             in the power of technology and its ability to change the world for the
             better. Our mission is to create innovative solutions that make a
-            difference in people's lives. We are committed to excellence and
+            difference in people&apos;s lives. We are committed to excellence and
             strive to deliver the highest quality products and services to our
             customers. We are always looking for new ways to improve and grow, and
             we are excited to see what the future holds. Thank you for joining us
-            
+
         </p>
       </div>
     </div>
