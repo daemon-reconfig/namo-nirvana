@@ -2,9 +2,9 @@
 import { Type } from "@/components/typewriter";
 import { SparklesCore } from "@/components/ui/sparkkles";
 import Image from "next/image";
-import Link from "next/link";
+
 import logo from "@/public/logo.png";
-import { useEffect } from "react";
+
 
 function smoothScrollToAbout() {
     document.getElementById('about')?.scrollIntoView({
@@ -12,10 +12,7 @@ function smoothScrollToAbout() {
     });
 }
 function Hero() {
-    useEffect(() => {
-        // Smooth scroll to the #about section on initial render
-        smoothScrollToAbout();
-    }, []);
+    
     return (
         <section id="hero" className="h-screen flex flex-col items-center justify-center px-6">
             <div className="text-center">

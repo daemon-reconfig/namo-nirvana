@@ -1,21 +1,22 @@
 
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import Navbar from "@/components/navbar";
+
 import Hero from "./components/sections/hero";
-import AboutUs from "./components/sections/about";
+import Rover from "./components/sections/rover";
 import { TracingBeam } from "@/components/ui/tracing-beam";
+import { Menu } from "@/components/ui/nav";
+import Navbar from "./components/navbar";
 
 export default function Home() {
+  
   return (
     <main >
       {/* Hero */}
       <BackgroundBeams className="inset-0" />
       <TracingBeam>
         <Hero />
-
-        
-      
-        <AboutUs />
+        <Navbar className="top-10" />
+        <Rover />
       </TracingBeam>
       
     </main>

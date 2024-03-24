@@ -11,6 +11,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Namo Nirvana",
   description: "A place where robots come alive.",
+  icons: {
+    icon: 'favicon.ico', 
+  },
 };
 
 export default function RootLayout({
