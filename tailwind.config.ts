@@ -23,7 +23,10 @@ const config: Config = {
       
     }
   },
-  plugins: [addVariablesForColors],
+  plugins: [
+    addVariablesForColors,
+    
+  ],
 };
 function addVariablesForColors({ addBase, theme }: any) {
   let allColors = flattenColorPalette(theme("colors"));
