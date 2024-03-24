@@ -12,10 +12,10 @@ function Hero() {
                     <Image src={logo} alt="Logo" className="w-48 h-48 md:w-64 md:h-64 mx-auto" />
                     <Type />
                     <div className="relative w-full">
-                        <div className="absolute inset-x-4 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-1 w-2/3 blur-sm" />
-                        <div className="absolute inset-x-4 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-2/3" />
-                        <div className="absolute inset-x-12 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-2 w-1/3 blur-sm" />
-                        <div className="absolute inset-x-12 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/3" />
+                        <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-1 w-2/3 blur-sm" />
+                        <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-2/3" />
+                        <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-2 w-1/3 blur-sm" />
+                        <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/3" />
                         <SparklesCore
                             background="transparent"
                             minSize={0.4}
@@ -24,7 +24,7 @@ function Hero() {
                             className="w-full h-full"
                             particleColor="#FFFFFF"
                         />
-                        <div className="absolute inset-0 w-full h-full bg-black opacity-50"></div>
+                        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                     </div>
                     <div className="mt-8">
                         <button className="relative inline-flex h-12 w-32 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
