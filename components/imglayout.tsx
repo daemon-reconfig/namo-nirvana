@@ -18,7 +18,7 @@ const SkeletonOne = () => {
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         {/* something about the achievement */}
-        Our team's success at the NIT Trichy Pragyan-24 Hackathon highlights our dedication and excellence in developing cutting-edge solutions amidst intense competition.
+        Our team&apos;s success at the NIT Trichy Pragyan-24 Hackathon highlights our dedication and excellence in developing cutting-edge solutions amidst intense competition.
 
       </p>
     </div>
