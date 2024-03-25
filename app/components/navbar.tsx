@@ -13,7 +13,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink setActive={setActive} href="#about" >About</HoveredLink>
             <HoveredLink setActive={setActive} href="#rover" >Rover</HoveredLink>
             <HoveredLink setActive={setActive} href="#achievements" >Achievements</HoveredLink>
-            <HoveredLink setActive={setActive} href="#contact" >Our Team</HoveredLink>
+            <HoveredLink setActive={setActive} href="#team" >Our Team</HoveredLink>
           </Menu>
       </div>
     );

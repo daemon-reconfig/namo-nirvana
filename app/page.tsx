@@ -9,6 +9,8 @@ import Navbar from "./components/navbar";
 import AboutUs from "./components/sections/about";
 import Achievements from "./components/sections/achievements";
 import { FunEffect } from "./components/sections/gemini";
+import OurTeam from "./components/sections/team";
+import Footer from "./components/footer";
 
 export default function Home() {
   
@@ -23,9 +25,10 @@ export default function Home() {
         <Rover />
         <AboutUs />
         <Achievements />
+        <OurTeam />
         <FunEffect />
       </TracingBeam>
-      
+      <Footer />
     </main>
   );
 }
