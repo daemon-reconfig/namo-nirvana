@@ -109,14 +109,23 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
-  return (
-    <Link
-      {...rest}
-      className="text-neutral-200 dark:text-neutral-200 hover:text-orange-500 scroll-smooth"
-      smooth    
-    >
-      {children}
-    </Link>
-  );
-};
+
+
+export const HoveredLink = ({ children, href, ...rest }: any) => {
+    const handleClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+      event.preventDefault();
+      const targetElement = document.querySelector(href);
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    };
+  
+    return (
+      <a href={href} onClick={handleClick} {...rest}>
+        {children}
+      </a>
+    );
+  };
