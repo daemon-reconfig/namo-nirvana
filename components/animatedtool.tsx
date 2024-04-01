@@ -6,77 +6,67 @@ const people = [
     id: 1,
     name: "Dr. Saurav Gupta",
     designation: "Faculty Mentor",
-    image:
-      "/sourav.jpg",
+    image: "/sourav.jpg",
   },
   {
     id: 2,
     name: "Harsh Yadav",
     designation: "Team Lead",
-    image:
-      "/harsh.jpg",
+    image: "/harsh.jpg",
   },
   {
     id: 3,
     name: "Thakur Akshay",
     designation: "Team Co-Lead",
-    image:
-      "/akshay.jpg",
+    image: "/akshay.jpg",
   },
   {
     id: 4,
-    name: "Aqeeb Akeel",
-    designation: "Mobility Lead",
-    image:
-      "/aqeeb.jpg",
+    name: "Avishkar",
+    designation: "Programming Lead",
+    image: "/avishkar.jpg",
   },
   {
     id: 5,
-    name: "Shreyansh",
-    designation: "Chasis",
-    image:
-      "/sheryansh.jpg",
+    name: "Aqeeb Akeel",
+    designation: "Mobility Lead",
+    image: "/aqeeb.jpg",
   },
   {
     id: 6,
-    name: "Soham",
-    designation: "Mobility",
-    image:
-      "/soham.jpg",
+    name: "Shreyansh",
+    designation: "Chasis",
+    image: "/sheryansh.jpg",
   },
   {
     id: 7,
-    name: "Ayush",
-    designation: "Research and Science",
-    image:
-      "/ayush.jpg",
+    name: "Soham",
+    designation: "Mobility",
+    image: "/soham.jpg",
   },
   {
     id: 8,
-    name: "Anany",
-    designation: "Chasis",
-    image:
-      "/anany.jpg",
+    name: "Ayush",
+    designation: "Research and Science",
+    image: "/ayush.jpg",
   },
   {
     id: 9,
-    name: "Aditya",
-    designation: "Design and modeling",
-    image:
-      "/aditya.jpg",
+    name: "Anany",
+    designation: "Chasis",
+    image: "/anany.jpg",
   },
   {
     id: 10,
-    name: "Avishkar",
-    designation: "Programming Lead",
-    image:
-      "/avishkar.jpg",
-  }
+    name: "Aditya",
+    designation: "Design and modeling",
+    image: "/aditya.jpg",
+  },
 ];
 
 export function TeamMem() {
   return (
-    <div className="flex flex-row items-center justify-center mb-10 w-full pt-20">
+    <div className="mb-10 flex w-full flex-row items-center justify-center pt-20">
       <AnimatedTooltip items={people} />
     </div>
   );
